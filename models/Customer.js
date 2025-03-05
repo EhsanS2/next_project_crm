@@ -31,7 +31,7 @@ const customerSchema = new Schema({
     },
     updatedAt: {
         type: Date,
-        default: () => Date.noe(),
+        default: () => Date.now(),
     },
 });
 
